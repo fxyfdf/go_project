@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="add loop structure">
-      <change afterPath="$PROJECT_DIR$/bak/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bak/2 程序结构/2.1 ProgramStructure.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/1.1 Variable operating.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/1.2 Data Type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/1.3 constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/1.5 Operator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bak/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/02.变量初始化.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/02.变量初始化.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/03.变量赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/03.变量赋值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/04.交换两个变量值.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/04.交换两个变量值.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/05.自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/05.自动推导类型.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/07.输出格式.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/07.输出格式.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/08.接受输入.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/08.接受输入.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/笔记/1 V2.0 Go基础-变量与基本数据类型" beforeDir="false" afterPath="$PROJECT_DIR$/bak/笔记/1 V2.0 Go基础-变量与基本数据类型" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak/输出格式.go" beforeDir="false" afterPath="$PROJECT_DIR$/bak/go_基础变量与数据操作类型/输出格式.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +20,7 @@
   <component name="GOROOT" path="D:/all_project_env/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -188,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580179069196" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580179498934">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580202504401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580179498934" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580202504401" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580115691344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -220,22 +203,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="803" height="264" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580201931034" />
-    <state x="467" y="172" key="SettingsEditor" timestamp="1580202310435">
+    <state x="467" y="172" key="SettingsEditor" timestamp="1580202635431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580202310435" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580179516779">
+    <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580202635431" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580202714677">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580179516779" />
-    <state x="743" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1580115952045">
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580202714677" />
+    <state x="743" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1580202807668">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="743" y="305" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115952045" />
+    <state x="743" y="305" key="git4idea.merge.GitMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580202807668" />
     <state x="743" y="300" key="git4idea.merge.GitPullDialog" timestamp="1580115587866">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="743" y="300" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115587866" />
+    <state x="605" y="255" width="700" height="530" key="recent.locations.popup" timestamp="1580202669949">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="605" y="255" width="700" height="530" key="recent.locations.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580202669949" />
     <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580179086072">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
