@@ -1,0 +1,17 @@
+from PIL import ImageGrab
+im = ImageGrab.grab((0,0,800,200)) #截取屏幕指定区域的图像
+im = ImageGrab.grab() #不带参数表示全屏幕截图
+im.save("C:\\Users\\Administrator\\Desktop\\GO_IMAGE\\1.png")
+
+变量就是存储数据的空间
+
+2.2.1 变量声明
+var age int
+var num， sum int
+2.2.3 变量赋值
+var age int = 11
+var age1 int
+age1 = 10
+var a int = 10
+var b int
+b = a
