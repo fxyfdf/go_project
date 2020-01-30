@@ -204,7 +204,7 @@ func MaxValue(num []int) int {
 	return max
 }
 
-// 排序算法
+// 排序算法：
 
 // 1 冒泡排序
 func BubbleSort(list []int) []int {
@@ -228,13 +228,212 @@ func BubbleSort(list []int) []int {
 	return list
 }
 
-// 2 选择排序
+// 2 选择排序: 每次选择出列表中最大的数然后交换
+func SelectSort(list []int) []int {
+	// 选择排序，从小到大
+	// 1 找出切片中最小的数据  2 和切片中第一个数进行位置交换
+	fmt.Println(list)
+	fmt.Println(len(list))
+	//min := list[0]
+	//minIndex :=0
+	for i := 0; i < len(list)-1; i++ {
+		minIndex := i
+		min := list[i]
+		for j := i + 1; j < len(list); j++ {
+			// 循环找出剩余元素中的最小值和索引位置
+			if list[j] < min {
+				min = list[j]
+				minIndex = j
+			}
+		}
+		//如果最小值和剩余元素的第一个索引不相等交换
+		if minIndex != i {
+			list[i], list[minIndex] = list[minIndex], list[i]
+		}
+	}
+	return list
 
-// Map
+}
+
+// Map ： 结构，创建 初始化 ， map键值 , map作为函数参数， map案例，
+/*
+MAP 是一种无序的键值对的集合
+map 是通过key 快速检索数据的，key 类似于索引，指向数据的值
+键不允许重复
+*/
+func MapTest() {
+	// 数组，切片问题
+	names := []string{"str", "lpf", "张三"}
+	fmt.Println(names[2])
+	//var map1 map[int] string // 键类型 int, 值类型 字符串
+	var map1 map[int]string = map[int]string{1: "lfp", 2: "sybs", 33: "张三", 11: "fxyfdf"} // 初始化数据
+	//map2 := map[int] string{}
+	map2 := map[int]string{1: "lfp", 11: "fxyfdf", 2: "sybs", 33: "张三"} //初始化
+	map3 := make(map[string]int)                                        //初始化
+	map3["a"] = 1
+	map3["ab"] = 2
+	fmt.Println("map1 = ", map1, "len(map1) = ", len(map1)) //len 返回的是map 中已有的键值个数
+	fmt.Println("map2 = ", map2, "len(map2) = ", len(map2))
+	fmt.Println("map3 = ", map3, "len(map3) = ", len(map3))
+
+	// map 键与值
+	map4 := map[int]string{1: "lfp", 11: "fxyfdf", 2: "sybs", 33: "张三"}
+	fmt.Println("map4[2] = ", map4[2], "len(map4) = ", len(map4))
+	// 循环方式获取值
+	for k, v := range map4 {
+		fmt.Println("k = ", k, "v = ", v)
+	}
+	// delete(map名字，键)  删除某个值
+	fmt.Println(map4)
+	delete(map4, 33)
+	fmt.Println(map4)
+}
+
+// func 函数名（map) {函数体}  调用： 函数名（map)  注意：在函数中修改map 会修改有map 中的值
+func MapTest2(map1 map[int]string) {
+	// 一个字符串，统计每个字母出现的次数
+	for k, v := range map1 {
+		fmt.Println("k=", k, "v=", v)
+	}
+	var str string = "adfereljce adrtrgadd"
+	//1 循环每个字母，取出字母
+	m := make(map[byte]int)
+	for i := 0; i < len(str); i++ {
+		ch := str[i] //ch='a' ch='d' ch='f'
+		m[ch] = m[ch] + 1
+		fmt.Println(m[ch])
+	}
+	fmt.Println(m)
+	//2 统计
+	for k, v := range m {
+		fmt.Printf("%c:%d \n", k, v)
+	}
+	//3 输出结果
+
+}
 
 // 结构体
+type Student2 struct {
+	id   int
+	name string
+	age  int
+	addr string
+}
+
+func StructTest(stu Student2) {
+	// 结构体： 一系列具有相同类型或不同类型的数据构成的数据集合（结构体可以很好地管理一批有联系的数据，使用结构体可以提高程序的易读性）
+	// 结构体可以很好地管理一批有联系的数据，使用结构体可以提高程序的易读性。
+	//结构体创建与初始化: 顺序初始化，指定成员初始化，通过结构体变量.成员 完成初始化
+	/*
+		// 成员前面不加 var
+		type Student struct {
+			id int
+			name string
+			age int
+			addr string
+		}
+		// 始化f方式
+		var s Student=Student{ id: 101, name:"张三", age:18 ,addr:"BJ"} // 顺序初始化，
+		var s1 Student=Student{ id: 101, name:"张三", age:18} // 部分初始化
+		var s2 Student  // 通过变量初始化
+		s2.id = 3
+		s2.name = "lpf"
+		s2.addr = "sh"
+		fmt.Println(s)
+		fmt.Println(s1)
+		fmt.Println(s2)
+
+		//结构体与数组：
+		// 定义在函数内，结构体只适用于函数内 此处使用 Student2
+		var arr[3] Student2=[3] Student2{
+			Student2{id: 1,name:"张三",age: 18, addr:"bj"},
+			Student2{id: 2,name:"李二",age: 18, addr:"sh"},
+			Student2{id: 3,name:"王五",age: 19, addr:"bj"},
+		}
+		fmt.Println("测试结构体与数组 ")
+		fmt.Println(arr)
+		fmt.Println(arr[0])
+		fmt.Println(arr[0],"age 是 ", arr[0].age)
+		arr[0].age = 21
+		fmt.Println(arr[0],"age 是 ", arr[0].age)
+
+		// 循环读取
+		for i := 0; i< len(arr); i++ {
+			//fmt.Println(arr[i])
+			fmt.Println(arr[i].name, "age 是", arr[i].age, "岁")
+		}
+		for k, v := range arr {
+			fmt.Printf("%d",k)
+			fmt.Println(v.name, "age 是", v.age)
+		}
+
+		//结构体与切片: 定义，修改成员值，循环遍历，append 函数使用
+		var s3[] Student2 = [] Student2 {
+			Student2{id: 1,name:"张三",age: 18, addr:"bj"},
+			Student2{id: 2,name:"le",age: 18, addr:"bj"},
+			Student2{id: 3,name:"ww",age: 18, addr:"bj"},
+		}
+		fmt.Println("结构体与切片测试")
+		fmt.Println(s3)
+		s3[0].age = 21
+		fmt.Println(s3)
+		// 循环遍历
+		for i := 0; i<len(s3); i++{
+			fmt.Println(s3[i])
+		}
+		for _,v := range s3 {
+			fmt.Println(v)
+		}
+		s3 = append(s3,Student2{id:4, name:"李四", age:22, addr:"sh"})
+		fmt.Println(s3)
+
+		//结构体与map：  定义 初始化 循环遍历 删除
+		m :=make(map[int] Student2)
+		m[1]=Student2{id:4333, name:"李四", age:22, addr:"sh"}
+		m[2]=Student2{id:53333, name:"李四", age:22, addr:"sh"}
+		fmt.Println("测试结构体与map")
+		fmt.Println(m)
+		delete(m, 2)
+		fmt.Println(m)
+		fmt.Println(m[1])
+		fmt.Println(m[1].name)
+		for k,v := range m{
+			fmt.Println(k,v)
+		}
+	*/
+	//结构体作为函数  stu
+	stu.age = 33
+	stu.addr = "函数内修改结构体数据"
+	fmt.Println(stu)
+	fmt.Println("函数内测试ok")
+}
+
+// 注册信息
+func InitData(stu []Student2) {
+	for i := 0; i < len(stu); i++ {
+		fmt.Printf("请输入第%d 学生的详细信息依次为id name age addr\n", i+1)
+		fmt.Scan(&stu[i].id, &stu[i].name, &stu[i].age, &stu[i].addr)
+	}
+	fmt.Println("")
+}
+
+// 获取年龄最大
+func GetMax(stu []Student2) {
+	var max int = stu[0].age
+	var maxIndex int
+	for i := 0; i < len(stu); i++ {
+		if stu[i].age > max {
+			max = stu[i].age
+			maxIndex = i
+		}
+	}
+	fmt.Println(stu[maxIndex])
+}
 
 // 指针
+func PointerTest() {
+
+}
 
 // 其他
 
@@ -252,7 +451,22 @@ func main() {
 	//s = append(s,1,2,3,4,5,6,7)
 	//SliceUp2(s)
 	//SliceUp3()
-	s := []int{1, 3, 4, 2, 5, 33, 22}
-	s2 := BubbleSort(s)
-	fmt.Println(s2)
+	//s := []int{11, 3, 4, 2, 5, 33, 22}
+	////s2 := BubbleSort(s)
+	////fmt.Println(s2)
+	//s3 := SelectSort(s)
+	//fmt.Println(s3)
+	//MapTest()
+	//var map2 map[int] string = map[int] string {1:"zs", 2:"ls", 3:"sdr"}
+	//MapTest2(map2)
+	//stu := Student2{id:5, name:"李四", age:22, addr:"main 函数测试数据"}
+	//fmt.Println("主函数开始测试")
+	//fmt.Println("1",stu)
+	//StructTest(stu)  //函数体内修改结构体数据，不改变结构体外数据
+	//fmt.Println("2",stu)
+	//MAP
+	stu := make([]Student2, 3) // 创建map  3
+	InitData(stu)              // 录入学生信息
+	GetMax(stu)                //计算最大年龄数谁
+
 }

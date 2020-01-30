@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加 函数基本语法以及操作&#10;删除 bak 文件夹">
+    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加 数组 分片 基本使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/复合类型/1.4CompoundType.go" beforeDir="false" afterPath="$PROJECT_DIR$/复合类型/1.4CompoundType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -161,12 +162,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delte" />
     <MESSAGE value="add loop structure" />
     <MESSAGE value="add loop structure 2" />
     <MESSAGE value="添加 函数基本语法以及操作&#10;删除 bak 文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 函数基本语法以及操作&#10;删除 bak 文件夹" />
+    <MESSAGE value="添加 数组 分片 基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 数组 分片 基本使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="185" key="#Notifications" timestamp="1580220872598">
@@ -177,10 +189,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580203543233" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580220822662">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580302701580">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580220822662" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580302701580" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580115691344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -193,30 +205,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="832" y="422" width="266" height="205" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115142912" />
-    <state width="916" height="216" key="GridCell.Tab.0.bottom" timestamp="1580299062959">
+    <state width="916" height="308" key="GridCell.Tab.0.bottom" timestamp="1580391571878">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580299062959" />
-    <state width="916" height="216" key="GridCell.Tab.0.center" timestamp="1580299062959">
+    <state width="916" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580391571878" />
+    <state width="916" height="308" key="GridCell.Tab.0.center" timestamp="1580391571878">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="216" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580299062959" />
-    <state width="916" height="216" key="GridCell.Tab.0.left" timestamp="1580299062958">
+    <state width="916" height="308" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580391571878" />
+    <state width="916" height="308" key="GridCell.Tab.0.left" timestamp="1580391571877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="216" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580299062958" />
-    <state width="916" height="216" key="GridCell.Tab.0.right" timestamp="1580299062959">
+    <state width="916" height="308" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580391571877" />
+    <state width="916" height="308" key="GridCell.Tab.0.right" timestamp="1580391571878">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="216" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580299062959" />
-    <state x="467" y="172" key="SettingsEditor" timestamp="1580202635431">
+    <state width="916" height="308" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580391571878" />
+    <state x="467" y="172" key="SettingsEditor" timestamp="1580349877999">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580202635431" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580220838603">
+    <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580349877999" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580302728122">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580220838603" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580302728122" />
     <state x="743" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1580202998310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -233,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="605" y="255" width="700" height="530" key="recent.locations.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580202669949" />
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580287588206">
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580378361609">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580287588206" />
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580378361609" />
     <state x="402" y="269" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1580115616070">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
