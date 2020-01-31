@@ -431,8 +431,93 @@ func GetMax(stu []Student2) {
 }
 
 // 指针
-func PointerTest() {
 
+func PointerTest(n *int) {
+	// 指针简介，
+	// 指针也是一个变量，特殊的变量，存放的数据是变量的内存地址， var a * = &a
+
+	//指针定义，
+	var a int = 10
+	var p1 *int //  创建指针p1  int 类型是存放地址对应的变量类型，这里我们存放a 即 int 类型
+	p1 = &a
+	fmt.Printf("a的地址为%p，指针p1=%p\n", &a, p1)  //打印指针p1 存放的地址
+	fmt.Printf("a的地址为%p，指针p1=%d\n", &a, *p1) // 打印 p1 存放地址对应的变量
+	fmt.Printf("a的地址为%p，指针p1=%p\n", &a, &p1) // 打印 p1 本身的地址
+
+	//指针操作注意事项，
+	var p2 *int   // 直接输出p2 时会报空指针异常
+	p2 = new(int) // 开辟新地址空间(4byte大小) ， 如果没有此处会报错，空指针
+	*p2 = 56      //注意是*p2  指向开辟的地址空间
+	fmt.Println(*p2)
+	//指针作为函数参数，利用指针修改原有变量的值
+	fmt.Printf("执行函数修改地址对应的区域变量\n")
+	*n = 100
+
+	//数组指针， 基本概念，作为函数
+	nums := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	var p *[10]int
+	p = &nums
+	fmt.Println(*p)
+	//fmt.Println(p[0])
+	//for i:=0;i<len(p);i++{
+	//	fmt.Println(p[i])
+	//}
+
+	//指针数组， 数组元素是指针类型， 指针数组指的是一个数组中存储的都是指针（也就是地址）,存储了一个地址数组
+	var arrp [2]*int // 下标为整型
+	var a1 int = 10
+	var a2 int = 10
+	arrp[0] = &a1
+	arrp[1] = &a2
+	fmt.Println(arrp)
+	fmt.Println(*arrp[0]) // * 后面不加括号
+	//for i:=0; i<len(arrp);i++ {
+	//	fmt.Println(*arrp[i])
+	//}
+	//for k,value := range arrp{
+	//	fmt.Println(k,*value)
+	//}
+
+	//指针与切片， 指针指向切片
+	s := []int{1, 2, 3, 4, 5, 6}
+	var Slicep *[]int
+	Slicep = &s
+	fmt.Println(*Slicep)
+	fmt.Println((*Slicep)[0]) // 注意括号
+	(*Slicep)[0] = 200
+	fmt.Println((*Slicep)[0]) // 注意括号
+
+	//for i:=0;i<len(*Slicep) ;i++ {
+	//	fmt.Println((*Slicep)[i])
+	//}
+	//for k,value:= range *p{
+	//	fmt.Println(k)
+	//	fmt.Println(value)
+	//}
+	//指针与结构体， 指针指向结构体  已经定义好结构体体 Student2
+	StructStu := Student2{id: 1, name: "张三", age: 19}
+	var StructP *Student2
+	StructP = &StructStu
+	fmt.Println(*StructP)
+	fmt.Println((*StructP).name)
+	fmt.Println(StructP.name)
+	StructP.name = "王五" // 指针结构体值得修改
+	fmt.Println(StructP.name)
+
+	//z作为函数参数  完成参数修改
+
+	//多级指针，指针总结
+	var app int = 10
+	var pp *int //指针
+	pp = &app
+	var pp2 **int // 多级指针
+	pp2 = &pp
+	fmt.Println(pp2)
+
+}
+
+func PointerUpdate(p *[10]int) {
+	p[0] = 100 // 传入一个数组指针，修改值
 }
 
 // 其他
@@ -465,8 +550,16 @@ func main() {
 	//StructTest(stu)  //函数体内修改结构体数据，不改变结构体外数据
 	//fmt.Println("2",stu)
 	//MAP
-	stu := make([]Student2, 3) // 创建map  3
-	InitData(stu)              // 录入学生信息
-	GetMax(stu)                //计算最大年龄数谁
+	// 结构体
+	//stu := make([]Student2, 3) // 创建map  3
+	//InitData(stu)              // 录入学生信息
+	//GetMax(stu)                //计算最大年龄数谁
 
+	// 指针
+	var num int = 10
+	//fmt.Println(num)
+	//PointerTest(&num)  //内存地址传入函数，直接修改
+	//fmt.Println(num)
+	// 数组指针
+	PointerTest(&num)
 }
