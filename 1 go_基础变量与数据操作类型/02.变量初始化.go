@@ -7,10 +7,6 @@ func main() {
 	var num int = 20
 	fmt.Println(age)
 	fmt.Println(num)
-	fmt.Println(age,num)
-
+	fmt.Println(age, num)
 
 }
-
-
-

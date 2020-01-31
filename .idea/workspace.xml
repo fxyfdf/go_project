@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加 指针基本使用">
-      <change afterPath="$PROJECT_DIR$/复合类型/1.4CompoundType_High.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记/视频观看记录记录" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/02.变量初始化.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/02.变量初始化.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/03.变量赋值.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/03.变量赋值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/04.交换两个变量值.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/04.交换两个变量值.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/05.自动推导类型.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/05.自动推导类型.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/07.输出格式.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/07.输出格式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/08.接受输入.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/08.接受输入.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/1.1 Variable operating.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/1.1 Variable operating.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/1.2 Data Type.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/1.2 Data Type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/1.3 constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/1.3 constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/1.5 Operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/1.5 Operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_基础变量与数据操作类型/输出格式.go" beforeDir="false" afterPath="$PROJECT_DIR$/1 go_基础变量与数据操作类型/输出格式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复合类型/1.4CompoundType.go" beforeDir="false" afterPath="$PROJECT_DIR$/4 复合类型/1.4CompoundType.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/复合类型/1.4CompoundType_High.go" beforeDir="false" afterPath="$PROJECT_DIR$/4 复合类型/1.4CompoundType_High.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +205,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="556" y="185" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1580432607368" />
-    <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580203543233">
+    <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580461158985">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580203543233" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580443040037">
+    <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580461158985" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580454993456">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580443040037" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580454993456" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580115691344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -210,30 +225,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="832" y="422" width="266" height="205" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115142912" />
-    <state width="914" height="307" key="GridCell.Tab.0.bottom" timestamp="1580450483149">
+    <state width="914" height="307" key="GridCell.Tab.0.bottom" timestamp="1580460498569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580450483149" />
-    <state width="914" height="307" key="GridCell.Tab.0.center" timestamp="1580450483149">
+    <state width="914" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580460498569" />
+    <state width="914" height="307" key="GridCell.Tab.0.center" timestamp="1580460498568">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="307" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580450483149" />
-    <state width="914" height="307" key="GridCell.Tab.0.left" timestamp="1580450483149">
+    <state width="914" height="307" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580460498568" />
+    <state width="914" height="307" key="GridCell.Tab.0.left" timestamp="1580460498567">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="307" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580450483149" />
-    <state width="914" height="307" key="GridCell.Tab.0.right" timestamp="1580450483149">
+    <state width="914" height="307" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580460498567" />
+    <state width="914" height="307" key="GridCell.Tab.0.right" timestamp="1580460498569">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="307" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580450483149" />
+    <state width="914" height="307" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580460498569" />
     <state x="467" y="172" key="SettingsEditor" timestamp="1580432622434">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580432622434" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580443052984">
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580455008179">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580443052984" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580455008179" />
+    <state x="757" y="312" width="652" height="566" key="find.popup" timestamp="1580461388008">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="757" y="312" width="652" height="566" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580461388008" />
     <state x="743" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1580202998310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

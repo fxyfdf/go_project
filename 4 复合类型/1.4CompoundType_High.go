@@ -20,6 +20,9 @@ map 本质是个结构体指针类型，所以把map 作为参数也可以修改
 rnage 的本质是一个函数的方法，使用时候可以加括号使用
 修改range 得到后的value ，不影响原始切片或者数组
 */
+
+//
+
 func main() {
 	var num int = 10
 	ap := &num
