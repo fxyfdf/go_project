@@ -1,12 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="整理目录结构">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加文件读取">
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.10-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.10-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.10-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.1.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.11-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.5-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.5-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.10-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.10-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.10-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.4/1.4.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.5.11-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.5.11-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.5.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.5.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.7-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.6/1.6.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.1.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.1.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.1.7-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.1.7-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.1.7-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.2.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/2.3.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/3.1.9-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/3.1.9-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/3.1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.4.10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.4.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.5.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.5.7-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.5.7-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.5.7-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.5.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.10-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.10-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.10-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.10-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.10-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.6.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.5-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.5-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GO_IMAGE/4.7.5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" beforeDir="false" afterPath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/goland_kuaijiejian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/goland_kuaijiejian.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +250,8 @@
     <MESSAGE value="添加 结构体基本使用" />
     <MESSAGE value="添加 指针基本使用" />
     <MESSAGE value="整理目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理目录结构" />
+    <MESSAGE value="添加文件读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文件读取" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="185" key="#Inspections" timestamp="1580443029978">
@@ -199,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580461158985" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580563201569">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580563309439">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580563201569" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580563309439" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580115691344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -235,10 +302,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580432622434" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580461523330">
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580563244701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580461523330" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580563244701" />
     <state x="757" y="312" width="652" height="566" key="find.popup" timestamp="1580461388008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
