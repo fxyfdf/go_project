@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加截图">
-      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.7/1.7.1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GO_IMAGE/1.7/1.7.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product/Meat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product/ProductInfo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/UserLogin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/UserRegister.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/min.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.go" afterDir="false" />
+    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加项目管理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" beforeDir="false" afterPath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/1 V2.0 Go基础-变量与基本数据类型" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +74,7 @@
       <recent name="D:\all_project_source\go_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build src/">
+  <component name="RunManager" selected="Go Build.go build 6.1 FileExceptionStringProject.go">
     <configuration name="go build 1.4CompoundType_High.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_project" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -147,9 +138,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 6.1 FileExceptionStringProject.go" />
         <item itemvalue="Go Build.go build src/" />
         <item itemvalue="Go Build.go build min.go" />
-        <item itemvalue="Go Build.go build 6.1 FileExceptionStringProject.go" />
         <item itemvalue="Go Build.go build 1.4CompoundType_High.go" />
         <item itemvalue="Go Build.go build 1.4CompoundType.go" />
       </list>
@@ -200,7 +191,8 @@
     <MESSAGE value="整理目录结构" />
     <MESSAGE value="添加文件读取" />
     <MESSAGE value="添加截图" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加截图" />
+    <MESSAGE value="添加项目管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加项目管理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="185" key="#Inspections" timestamp="1580443029978">
@@ -219,10 +211,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580461158985" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580563369228">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580626579734">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580563369228" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580626579734" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580614680879">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -235,30 +227,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="832" y="422" width="266" height="205" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115142912" />
-    <state width="916" height="164" key="GridCell.Tab.0.bottom" timestamp="1580626113085">
+    <state width="916" height="164" key="GridCell.Tab.0.bottom" timestamp="1580630867659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580626113085" />
-    <state width="916" height="164" key="GridCell.Tab.0.center" timestamp="1580626113085">
+    <state width="916" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
+    <state width="916" height="164" key="GridCell.Tab.0.center" timestamp="1580630867659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580626113085" />
-    <state width="916" height="164" key="GridCell.Tab.0.left" timestamp="1580626113085">
+    <state width="916" height="164" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
+    <state width="916" height="164" key="GridCell.Tab.0.left" timestamp="1580630867658">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580626113085" />
-    <state width="916" height="164" key="GridCell.Tab.0.right" timestamp="1580626113085">
+    <state width="916" height="164" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867658" />
+    <state width="916" height="164" key="GridCell.Tab.0.right" timestamp="1580630867659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580626113085" />
+    <state width="916" height="164" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
     <state x="467" y="172" key="SettingsEditor" timestamp="1580432622434">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="467" y="172" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580432622434" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580563379017">
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580626733912">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580563379017" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580626733912" />
     <state x="757" y="312" width="652" height="566" key="find.popup" timestamp="1580461388008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

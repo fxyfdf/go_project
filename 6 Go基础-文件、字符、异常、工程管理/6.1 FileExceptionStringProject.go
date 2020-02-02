@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strings"
 )
 
 //1 异常处理 2 文本文件处理 3 字符串处理 4 工程管理
@@ -170,6 +171,33 @@ func FileBak() {
 	}
 }
 
+// 3 字符串处理
+func StringOperation() {
+	//https://studygolang.com/pkgdoc
+	// 1 Contains(s, substr string) bool  判断字符串s是否包含子串substr。
+	fmt.Println(strings.Contains("seafood", "foo"))
+	fmt.Println(strings.Contains("seafood", "bar"))
+	// 2 Join(a []string, sep string) string 将一系列字符串连接为一个字符串，之间用sep来分隔。
+	s := []string{"foo", "bar", "baz"}
+	fmt.Println(strings.Join(s, ", ")) // 以逗号对切片中内容进行连接
+	// 3 index 	 Index(s, sep string) int 子串sep在字符串s中第一次出现的位置，不存在则返回-1。
+	fmt.Println(strings.Index("chicken", "ken")) // 位置从0 开始
+	fmt.Println(strings.Index("chicken", "dmr"))
+	// 4 Repeat Repeat(s string, count int) string 返回count个s串联的字符串。
+	fmt.Println("ba" + strings.Repeat("na", 2))
+	// 5 replace 替换字符串  返回将s中前n个不重叠old子串都替换为new的新字符串，如果n<0会替换所有old子串。
+	fmt.Println(strings.Replace("oink oink oink", "k", "ky", 2))
+	fmt.Println(strings.Replace("oink oink oink", "oink", "moo", -1))
+	// 6 Split
+	str6 := "hello:world:lll"
+	s6 := strings.Split(str6, ":")
+	fmt.Println(s6)
+	fmt.Printf("%q\n", strings.SplitN("a,b,c", ",", 2))
+	z := strings.SplitN("a,b,c", ",", 0)
+	fmt.Printf("%q (nil = %v)\n", z, z == nil)
+
+}
+
 // 工程管理:  将不同的代码写到不同的文件中
 // 创建同级目录： 所有的文件放置同一个文件夹下  如： 创建src目录，在该目录下创建go源码文件（注意创建的源码文件在同一个包下)， 在进行配置build目录运行
 
@@ -198,6 +226,6 @@ func main() {
 	//os.Open()  //Ctrl + b 快速查看方法
 	// 文本文件处理
 	//FileManage1()
-	FileBak()
-
+	//FileBak()
+	StringOperation()
 }
