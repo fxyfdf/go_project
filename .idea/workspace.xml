@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="添加项目管理">
+    <list default="true" id="73714196-1e0f-4d08-a8f3-2a943ed3a045" name="Default Changelist" comment="字符串类型操作">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" beforeDir="false" afterPath="$PROJECT_DIR$/6 Go基础-文件、字符、异常、工程管理/6.1 FileExceptionStringProject.go" afterDir="false" />
     </list>
@@ -192,7 +192,8 @@
     <MESSAGE value="添加文件读取" />
     <MESSAGE value="添加截图" />
     <MESSAGE value="添加项目管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加项目管理" />
+    <MESSAGE value="字符串类型操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串类型操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="185" key="#Inspections" timestamp="1580443029978">
@@ -211,10 +212,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580461158985" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580626579734">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580631096653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580626579734" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580631096653" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580614680879">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -227,22 +228,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="832" y="422" width="266" height="205" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580115142912" />
-    <state width="916" height="164" key="GridCell.Tab.0.bottom" timestamp="1580630867659">
+    <state width="916" height="164" key="GridCell.Tab.0.bottom" timestamp="1580632557523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
-    <state width="916" height="164" key="GridCell.Tab.0.center" timestamp="1580630867659">
+    <state width="916" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580632557523" />
+    <state width="916" height="164" key="GridCell.Tab.0.center" timestamp="1580632557523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
-    <state width="916" height="164" key="GridCell.Tab.0.left" timestamp="1580630867658">
+    <state width="916" height="164" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580632557523" />
+    <state width="916" height="164" key="GridCell.Tab.0.left" timestamp="1580632557521">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867658" />
-    <state width="916" height="164" key="GridCell.Tab.0.right" timestamp="1580630867659">
+    <state width="916" height="164" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580632557521" />
+    <state width="916" height="164" key="GridCell.Tab.0.right" timestamp="1580632557523">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="916" height="164" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580630867659" />
+    <state width="916" height="164" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580632557523" />
     <state x="467" y="172" key="SettingsEditor" timestamp="1580432622434">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -271,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="605" y="255" width="700" height="530" key="recent.locations.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580202669949" />
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580626186402">
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1580631259962">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580626186402" />
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580631259962" />
     <state x="402" y="269" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1580115616070">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

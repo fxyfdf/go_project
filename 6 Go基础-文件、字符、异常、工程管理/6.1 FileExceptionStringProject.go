@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -196,6 +197,38 @@ func StringOperation() {
 	z := strings.SplitN("a,b,c", ",", 0)
 	fmt.Printf("%q (nil = %v)\n", z, z == nil)
 
+	// 字符串转换 strconv
+	// 其他类型装换称字符串类型
+	str7 := strconv.FormatBool(true)
+	str7int := strconv.Itoa(123)
+	fmt.Println(str7)
+	fmt.Println(str7int)
+	// 字符串转换成其他类型
+	b, err := strconv.ParseBool("True")
+	bint, errint := strconv.Atoi("123")
+	if err != nil {
+		fmt.Println(err)
+	}
+	if errint != nil {
+		fmt.Println(bint)
+	}
+	fmt.Println(b)
+	fmt.Println(bint)
+
+}
+
+func StringOperation1(str string) {
+	// 2018-01-02 输出为 2008年1月2日
+	str1 := strings.Split(str, "-")
+	a1, b1 := strconv.Atoi(str1[1])
+	a2, b2 := strconv.Atoi(str1[2])
+	if b1 != nil {
+		fmt.Println(b1)
+	}
+	if b2 != nil {
+		fmt.Println(b2)
+	}
+	fmt.Println(str1[0], "年", a1, "月", a2, "日")
 }
 
 // 工程管理:  将不同的代码写到不同的文件中
@@ -227,5 +260,9 @@ func main() {
 	// 文本文件处理
 	//FileManage1()
 	//FileBak()
-	StringOperation()
+	//StringOperation()
+	//fmt.Println("输入日期 年-月-日：")
+	str := "2020-02-02"
+	//fmt.Scan(&str)
+	StringOperation1(str)
 }
