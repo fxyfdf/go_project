@@ -46,7 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -217,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="198" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580461158985" />
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580632591825">
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2" timestamp="1580634416634">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580632591825" />
+    <state x="562" y="34" width="1159" height="981" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580634416634" />
     <state x="741" y="271" key="FileChooserDialogImpl" timestamp="1580614680879">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -253,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="307" y="101" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580632989109" />
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580634399396">
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580634570981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580634399396" />
+    <state x="556" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580634570981" />
     <state x="757" y="312" width="652" height="566" key="find.popup" timestamp="1580461388008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
