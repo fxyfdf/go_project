@@ -1,6 +1,6 @@
 from PIL import ImageGrab
 im = ImageGrab.grab()
-im.save("D:\\0000kingsoft\\GoProject\\go_project\\GO_IMAGE\\1.5")
+im.save("D:\\0000kingsoft\\GoProject\\go_project\\GO_IMAGE\\1.5\\1.5.15-1.png")
 im.save("D:\\all_project_source\\go_project\\GO_IMAGE1.6\\1.6.1.png")
 im.save("C:\\Users\\Administrator\\Desktop\\GO_IMAGE\\1.6\\1.6.1.png")
 
